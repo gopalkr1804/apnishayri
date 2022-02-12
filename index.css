@@ -1,0 +1,590 @@
+@media all and (max-width: 600px) {
+ 
+body {
+  background-color: whitesmoke;
+  width:90%;
+  margin-left: 5%;
+
+}
+.topnav
+{
+	background-color: #5a6373;
+	height: 1cm;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px #5a6373;
+
+}.topnav ul
+{
+	position: relative;
+	top: 0.2cm;
+	list-style: none;
+	text-align: center;
+	margin-left: -40px;
+}
+.topnav ul li
+{
+	display: inline;
+	padding: 1%;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.topnav ul li a
+{
+	text-decoration: none;
+	color : white;
+	font-size: 12px;
+}
+.topnav ul li a:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.container .row .col-md-12 img
+{
+	margin-top: 0.5cm;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #5a6373;
+}
+
+.share{
+	color: black;
+	text-align: center;
+	font-family: verdana;
+	font-size: 1rem;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+.share a
+{
+	text-decoration: none;
+	color: blue;
+}
+.share a:hover
+{
+	color: mediumslateblue;
+}
+
+section{
+	float: left;
+	width: 100%;
+	background: snow;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px #5a6373;
+	margin-bottom: 20px;
+
+}
+
+.right .Categories ul{
+	width: 60%;
+	margin-left: 8%; 
+	margin-top: -10px;
+}
+.right .Categories ul li
+{
+	list-style-type: none;
+	font-size: 1.2rem;
+	padding-top: 5px;
+	text-align: center;
+	border: 2px solid 	darkslategray;
+	box-shadow: 5px 5px 10px #5a6373;
+}
+.right .Categories ul li a
+{
+	color: seagreen;
+	font-family: verdana;
+
+}
+.right .Categories ul li a:hover{
+	color: darkslateblue;
+	font-weight: bold;
+}
+
+h1 {
+	display: none;
+}
+
+h2 {
+  color: teal;
+  text-align: center;
+  font-family: verdana;
+  font-size: 18px;
+}
+
+h3 {
+  color: 	indianred;
+  text-align: center;
+  font-family: verdana;
+  font-size: 18px;
+}
+
+h4{
+	
+  color: cadetblue	;
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 12px;
+  text-align: center;
+  color: darkcyan;
+  margin-bottom: -10px;
+}
+
+h5{
+  color: teal;
+  text-align: center;
+  font-family: verdana;
+  font-size: 10px;
+  margin-bottom: -10px;
+}
+h5 a
+{
+	text-decoration:none;
+	color:mediumslateblue;
+	font-size: 10px;
+}
+h5 a:hover
+{
+	color: mediumslateblue;
+}
+
+.right2{
+	padding-top: 0px;
+	position: relative;
+	margin-top: 1cm;
+}
+.right2:hover{
+	border: 2px solid darkslategray;
+	border-radius: 0.1cm;
+
+}
+.right2 .photos{
+	font-size: 15px;
+	font-style: verdana;
+	text-align: center;
+	color:darkslateblue; 
+}
+.right3{
+	position: relative;
+	padding-top: 1cm;
+}
+
+.right4{
+	position: relative;
+}
+.right4 h6{
+	font-size: 18px;
+	color: 	darkred;
+	font-family: verdana;
+	font-weight: bold;
+}
+.right4 .share1{
+	font-size: 15px;
+	text-align: left;
+	color: 	salmon;
+	margin-top: -0.5cm;
+}
+.right4 .share1 a{
+	text-decoration: none;
+	color: blue;
+}
+.right4 .share1 a:hover{
+	font-size: 18px;
+}
+
+.page_nav{
+	position: relative;
+	text-align: center;
+	font-family: verdana;
+	margin-bottom: 10px;
+	margin-top: -10px;
+
+}
+.page_nav a{
+	text-decoration: none;
+	font-size: 15px;
+	color: peru;
+}
+
+.page_nav a:hover{
+	font-weight: bold;
+	color: sienna;
+}
+
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  bottom: -1cm;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+  margin-bottom: 0.5cm;
+}
+
+.footer .social {
+	text-align: center;
+	margin-left: -40px;
+}
+
+.footer .social li{
+	position: relative;
+	display: inline;
+
+}
+.footer .social li a{
+	text-decoration: none;
+	color: white;
+}
+
+.fa{
+	padding: 10px;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+.fa:hover {
+    font-size: 21px;
+}
+.fa-facebook {
+
+  color: white;
+}
+.fa-youtube {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+.footer .copyright{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+}
+
+
+@media all and (min-width: 600px) {
+
+@media all and (min-width: 900px){
+body {
+  background-color:	whitesmoke;
+  width: 80%;
+  margin-left: 10%;
+}
+}
+@media all and (max-width: 900px){
+body {
+  background-color:	whitesmoke;
+  width: 90%;
+  margin-left: 5%;
+}
+}
+.topnav
+{
+	
+	background-color: #5a6373;
+	height: 1.5cm;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px #5a6373;
+
+}
+.topnav ul
+{
+	position: relative;
+	top: 0.4cm;
+	list-style: none;
+	text-align: center;
+}
+.topnav ul li
+{
+	display: inline;
+	padding: 3%;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+.topnav ul li a
+{
+	text-decoration: none;
+	color : white;
+}
+.topnav ul li a:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.container .row .col-md-12 img
+{
+	margin-top: 0.5cm;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #5a6373;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.share{
+	display: none;
+}
+
+
+.main{
+	padding-top: 0.75cm;
+}
+section {
+	width: 60%;
+	float: left;
+	background:snow;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #5a6373;
+	min-height: 37cm;
+	max-height: 44cm;
+
+}
+.right{
+	width: 30%;
+	float: right;
+}
+
+h1 {
+  display: none;
+}
+
+h2 {
+  color: teal;
+  text-align: center;
+  font-family: verdana;
+  font-size: 1.7rem;
+}
+
+h3 {
+  color:darkolivegreen	;
+  text-align: left;
+  font-family: verdana;
+  font-size: 1.7rem;
+  margin-left: 15%;
+}
+
+h4{
+	color:cadetblue	;
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 1.2rem;
+  text-align: center;
+   color: darkcyan;
+   margin-bottom: -10px;
+}
+
+h5{
+	color: teal;
+  text-align: center;
+  font-family: verdana;
+  font-size: 10px;
+  margin-bottom: -15px;
+}
+h5 a
+{
+	text-decoration:none;
+	color:teal;
+}
+h5 a:hover
+{
+	color: mediumslateblue;
+	font-size: 11px;
+}
+
+.right .Categories
+{
+	margin-left: -65px;
+
+}
+
+.right .Categories ul li
+{
+	text-align: center;
+	list-style-type: none;
+	border: 2px solid 	darkslategray;
+	padding: 5px;
+	margin-right: 15%;
+	box-shadow: 10px 10px 15px #5a6373;
+
+}
+.right .Categories ul li a
+{
+	font-size: 17px;
+	color: seagreen;
+	font-family: verdana;
+
+}
+.right .Categories ul li a:hover{
+	color: darkslateblue;
+	font-weight: bold;
+}
+
+.right2{
+	padding-top: 0px;
+	width: 30%;
+	margin-left: 66.5%;
+	position: relative;
+	margin-top: 1.5cm;
+}
+.right2:hover{
+	border: 2px solid darkslategray;
+	border-radius: 0.1cm;
+
+}
+.right2 .photos{
+	font-size: 10px;
+	font-style: verdana;
+	text-align: center;
+	color:darkslategray; 
+}
+
+.right3{
+	position: relative;
+	padding-top: 1cm;
+	margin-left: 66.5%;
+}
+.right4{
+	position: relative;
+	margin-top: 13cm;
+	margin-left: 66.5%;
+	width: 35%;
+}
+.right4 h6{
+	font-size: 30px;
+	color: 	darkred;
+	font-family: verdana;
+	font-weight: bold;
+}
+.right4 .share1{
+	font-size: 20px;
+	text-align: left;
+	color: 	salmon;
+	margin-top: -1.5cm;
+}
+.right4 .share1 a{
+	text-decoration: none;
+	color: blue;
+}
+.right4 .share1 a:hover{
+	font-size: 21px;
+}
+
+
+.page_nav{
+	position: relative;
+	text-align: center;
+	font-family: verdana;
+	margin-bottom: 10px;
+	margin-top: -10px;
+
+}
+.page_nav a{
+	text-decoration: none;
+	font-size: 15px;
+	color: peru;
+}
+
+.page_nav a:hover{
+	font-weight: bold;
+	color: sienna;
+}
+
+@media all and (min-width: 900px){
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  bottom: -6cm;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+  margin-bottom: 0.5cm;
+  height: 120px;
+}
+}
+@media all and (max-width: 900px){
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  bottom: -8cm;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+  margin-bottom: 0.5cm;
+}
+}
+.footer .social {
+	text-align: center;
+}
+
+.footer .social li{
+	position: relative;
+	display: inline;
+	left: -8cm;
+}
+.footer .social li a{
+	text-decoration: none;
+	color: white;
+}
+
+.fa{
+	position: relative;
+  padding: 10px;
+
+  font-size: 21px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    font-size: 24px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-youtube {
+
+  color: white;
+}
+.fa-instagram {
+ 
+  color: white;
+}
+
+.footer .copyright{
+	
+	color: white;
+	width: 100%;
+	position: relative;
+	left: -7cm;
+
+}
+
+}
+

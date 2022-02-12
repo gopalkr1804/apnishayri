@@ -1,0 +1,254 @@
+@media all and (max-width: 600px) {
+ 
+body {
+  background-color:	white;
+  width:90%;
+  margin-left: 5%;
+  
+
+}
+.topnav
+{
+	background-color: #5a6373;
+	height: 1cm;
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px #5a6373;
+	position: sticky;
+	top: 0;
+
+}.topnav ul
+{
+	position: relative;
+	top: 0.2cm;
+	list-style: none;
+	text-align: center;
+	margin-left: -40px;
+}
+.topnav ul li
+{
+	display: inline;
+	padding: 1%;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.topnav ul li a
+{
+	text-decoration: none;
+	color : white;
+	font-size: 12px;
+}
+.topnav ul li a:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+h1{
+	font-family: verdana;
+	font-weight: bold;
+}
+
+p{
+	font-family: verdana;
+}
+a{
+	text-decoration: none;
+	color: 	mediumslateblue;
+}
+
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  bottom: -1cm;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+  margin-bottom: 0.5cm;
+}
+
+.footer .social {
+	text-align: center;
+	margin-left: -40px;
+}
+
+.footer .social li{
+	position: relative;
+	display: inline;
+
+}
+.footer .social li a{
+	text-decoration: none;
+	color: white;
+}
+
+.fa{
+	padding: 10px;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+.fa:hover {
+    font-size: 21px;
+}
+.fa-facebook {
+
+  color: white;
+}
+.fa-youtube {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+.footer .copyright{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+}
+
+
+@media all and (min-width: 600px) {
+
+body {
+  background-color:white;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.topnav
+{
+	
+	background-color: #5a6373;
+	height: 1.5cm;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px #5a6373;
+	position: sticky;
+	top: 0;
+
+}
+.topnav ul
+{
+	position: relative;
+	top: 0.4cm;
+	list-style: none;
+	text-align: center;
+}
+.topnav ul li
+{
+	display: inline;
+	padding: 3%;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+}
+.topnav ul li a
+{
+	text-decoration: none;
+	color : white;
+}
+.topnav ul li a:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.main{
+	width: 80%;
+	margin-left: 10%;
+}
+h1{
+	font-family: verdana;
+	font-weight: bold;
+	text-align: center;
+}
+p{
+	font-family: verdana;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: 	mediumslateblue;
+}
+
+
+@media all and (min-width: 900px){
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+  margin-bottom: 0.5cm;
+}
+}
+@media all and (max-width: 900px){
+.footer {
+  background-color: #5a6373;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #5a6373;
+}
+}
+.footer .social {
+	text-align: center;
+}
+
+.footer .social li{
+	position: relative;
+	display: inline;
+}
+.footer .social li a{
+	text-decoration: none;
+	color: white;
+}
+
+.fa{
+	position: relative;
+  padding: 10px;
+  
+  font-size: 21px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    font-size: 24px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-youtube {
+
+  color: white;
+}
+.fa-instagram {
+ 
+  color: white;
+}
+
+.footer .copyright{
+	
+	color: white;
+	width: 100%;
+	position: relative;
+	text-align: center;
+
+}
+
+}
+
